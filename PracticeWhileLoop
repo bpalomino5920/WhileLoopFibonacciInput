@@ -1,0 +1,22 @@
+your_list = [1,1,2,3,5,8,13,21,34,55]
+sum1p = 0
+sum2c = 0
+i = 0
+
+while sum1p < 50:
+    if int(sum2c) <= 55:
+        sum2c = input('Enter the next Fibonacci number >')  
+                 
+        if int(sum2c) == your_list[i]:
+            sum1p = your_list[i]
+            i += 1
+    #elif int(sum2c) != your_list[i]:
+        #print('Try again')
+        else:
+            break
+#if int(sum2c) <= 55:
+    #print('Well done')
+if int(sum2c) == 55:
+    print('Well done')
+else:
+    print('Try again')    
